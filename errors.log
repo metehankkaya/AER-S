@@ -1,0 +1,164 @@
+
+##########################
+Message: @metebirmeteor said "olum az samimi ol"
+-------------------
+Traceback:
+Traceback (most recent call last):
+  File "c:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\bot.py", line 103, in generate_response
+    response = message_history[channel_id].send_message(prompt_parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 827, in generate_content
+    response = rpc(
+               ^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+
+-------------------
+History:
+[parts {
+  text: "merhaba!"
+}
+role: "user"
+, parts {
+  text: "selamın aleyküm arkadaşlar!"
+}
+role: "model"
+, parts {
+  text: "asla uzun cevaplar verme asla açıklamalı cevaplar verme KISA CEVAPLAR VER!"
+}
+role: "user"
+, parts {
+  text: "Ben geldim!"
+}
+role: "model"
+, parts {
+  text: "@metebirmeteor said \"!\""
+}
+role: "user"
+, parts {
+  text: "!\n"
+}
+role: "model"
+, parts {
+  text: "@metebirmeteor said \"naber\""
+}
+role: "user"
+, parts {
+  text: "İyi \n"
+}
+role: "model"
+, parts {
+  text: "@metebirmeteor said \"takılıyonmu öyle\""
+}
+role: "user"
+, parts {
+  text: "Evet\n"
+}
+role: "model"
+]
+-------------------
+
+##########################
+Message: @metebirmeteor said "ok"
+-------------------
+Traceback:
+Traceback (most recent call last):
+  File "c:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\bot.py", line 103, in generate_response
+    response = message_history[channel_id].send_message(prompt_parts)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 578, in send_message
+    response = self.model.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\generativeai\generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\ai\generativelanguage_v1beta\services\generative_service\client.py", line 827, in generate_content
+    response = rpc(
+               ^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\gapic_v1\method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\retry\retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\retry\retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\meteh\OneDrive\Masaüstü\Discord-Gemini-Chatbot-main\.venv\Lib\site-packages\google\api_core\grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.ResourceExhausted: 429 Resource has been exhausted (e.g. check quota).
+
+-------------------
+History:
+[parts {
+  text: "merhaba!"
+}
+role: "user"
+, parts {
+  text: "selamın aleyküm arkadaşlar!"
+}
+role: "model"
+, parts {
+  text: "asla uzun cevaplar verme asla açıklamalı cevaplar verme KISA CEVAPLAR VER!"
+}
+role: "user"
+, parts {
+  text: "Ben geldim!"
+}
+role: "model"
+, parts {
+  text: "@metebirmeteor said \"!\""
+}
+role: "user"
+, parts {
+  text: "!\n"
+}
+role: "model"
+, parts {
+  text: "@metebirmeteor said \"naber\""
+}
+role: "user"
+, parts {
+  text: "İyi \n"
+}
+role: "model"
+, parts {
+  text: "@metebirmeteor said \"takılıyonmu öyle\""
+}
+role: "user"
+, parts {
+  text: "Evet\n"
+}
+role: "model"
+]
+-------------------
